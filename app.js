@@ -1,11 +1,11 @@
 require('dotenv').config();
 const express = require('express');
 const morgan = require('morgan');
-const errorHandler = require("./handlers/error");
-require("./rabbitmq/subscriber");
-require('./database/connection');
+const errorHandler = require("./src/handlers/error");
+require("./src/rabbitmq/subscriber");
+require('./src/database/connection');
 
-const routes = require('./routes/auth');
+const routes = require('./src/routes/auth');
 
 const app = express();
 
