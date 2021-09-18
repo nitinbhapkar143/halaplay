@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "author": "Nitin Bhapkar",
-  "apidoc" : {
+  "apidoc": {
     "title": "API Documentation",
-    "url" : "http://localhost:4000"
+    "url": "http://localhost:4000"
   },
   "scripts": {
     "start": "node ./bin/www",
