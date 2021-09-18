@@ -13,4 +13,4 @@
 
 ## How to view API documentation : 
 1. To run test cases use 'npm run docs'
-2. Go ot 'http://localhost:4000/docs' in browser
+2. Go ot 'http://localhost:4000/doc' in browser
